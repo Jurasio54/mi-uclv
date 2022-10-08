@@ -10,7 +10,7 @@ from upload_client import upload
 from download import download
 import urllib.parse
          
-app = Client('uclvcloud',api_id=15472343,api_hash='6817c82fe0b762ed91999f49cd17f7d7',bot_token='5700137394:AAGWKL2VQj18nxsTtSNQU9TVyzhWVpUMDJY')
+app = Client('uclvcloud',api_id=15472343,api_hash='6817c82fe0b762ed91999f49cd17f7d7',bot_token='5623554784:AAFlhXzyRLxq_7LV4xzMQpv73hn3azilhKs')
 @app.on_message(filters.private & filters.text)
 async def home(client, message):
 		text = message.text
